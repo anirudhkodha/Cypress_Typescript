@@ -1,0 +1,1 @@
+Feature: To test Event type and SitRep

@@ -1,0 +1,39 @@
+{
+  "inc_name": "Shell Automation 545 11/03/2024 10:43:18",
+  "LGA": "Armidale",
+  "start_time": "11/03/2024 10:13",
+  "inc_type": [
+    "Bushfire",
+    "Other",
+    "Non"
+  ],
+  "type_value": {
+    "Bushfire": "Scrub",
+    "Other": "Transformer fire",
+    "Non": "AFA"
+  },
+  "class_fire": "Class 3",
+  "big": "2",
+  "tenure_list": "National park",
+  "inc_status": "3",
+  "agency": "6",
+  "owner": "NSW",
+  "cause": "Arson",
+  "incident_loc": "86 BARNEY ST ARMIDALE NSW 2350",
+  "sensitive": "NO",
+  "master": "NO",
+  "alert_level": {
+    "value": "EW",
+    "name": "30",
+    "alert_rating": "Catastrophic"
+  },
+  "Triple0_ref": "0001465938591",
+  "heading": "West",
+  "threat": "Yes",
+  "resources": {
+    "name": "AirCraftResources.Other",
+    "value": "19"
+  },
+  "other_info": "MOVE TO YOUR SAFEZONE",
+  "results_label": "Reference NO."
+}

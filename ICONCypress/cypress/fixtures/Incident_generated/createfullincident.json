@@ -1,0 +1,24 @@
+{
+  "inc_name": " FullIncident Automation  12/03/2024",
+  "LGA": "Parramatta",
+  "incident_loc": "460 Church Street Parramatta NSW 2150",
+  "sensitive": "YES",
+  "master": "NO",
+  "RART": "NO",
+  "local_inc_id": "577073",
+  "Triple0_ref": "000-961671423",
+  "reason_noTriple0_ref": "N/A",
+  "Rfs_RCVDCall": "12/03/2024 15:02",
+  "triple0_RCVDCall": "12/03/2024 14:42",
+  "inc_type": [
+    "Bushfire",
+    "Other",
+    "Non"
+  ],
+  "type_value": {
+    "Bushfire": "Bushfire",
+    "Other": "Backyard fire",
+    "Non": "Explosion"
+  },
+  "results_label": "Reference No."
+}

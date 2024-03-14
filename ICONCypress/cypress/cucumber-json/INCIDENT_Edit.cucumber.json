@@ -1,0 +1,73 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "EDIT INCIDENTS",
+    "line": 1,
+    "id": "edit-incidents",
+    "tags": [],
+    "uri": "INCIDENT_Edit.feature",
+    "elements": [
+      {
+        "id": "edit-incidents;to-edit-any-created-incident",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "TO EDIT ANY CREATED INCIDENT",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I open ICON webpage",
+            "result": {
+              "status": "passed",
+              "duration": 3149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I can see dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I expand breadcrumb_menu & submenu \"Operations > Advanced Incident Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 2548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I can see the page header \"Incident / Event Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "if I have the test data for \"Bushfire type\"",
+            "result": {
+              "status": "failed",
+              "duration": 120045000000,
+              "error_message": "AssertionError: Timed out retrying after 120000ms: `cy.readFile(\"cypress/fixtures/Incident_results/Create Full Incident[Bushfire type] (example #1).json\")` failed because the file does not exist at the following path:\n\n`C:\\Projects\\WaridRefactorTry\\icon.rfs.nsw.gov.au\\functionaltesting\\ICONCypress\\cypress\\fixtures\\Incident_results\\Create Full Incident[Bushfire type] (example #1).json`\n    at Context.eval (cypress/e2e/common/_common_step.ts:211:16)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

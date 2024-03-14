@@ -1,0 +1,157 @@
+[
+  {
+    "description": "    ||As a staff member I want to record all types of incidents||",
+    "keyword": "Feature",
+    "name": "To test incident types",
+    "line": 2,
+    "id": "to-test-incident-types",
+    "tags": [],
+    "uri": "INCIDENTS_Create.feature",
+    "elements": [
+      {
+        "description": "\t\t||\t# ICONSUP-T424 (1.0) BR-STRP-10 Full Incident SitRep/ICONSUP-T423 (1.0) BR-STRP-9 Automatically triggered SitRep",
+        "id": "to-test-incident-types;create-full-incident[bushfire-type]",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Create Full Incident[Bushfire type]",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 6
+          },
+          {
+            "name": "@Teamcity",
+            "line": 6
+          },
+          {
+            "name": "@FullIncidentBushfiretype",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open ICON webpage",
+            "result": {
+              "status": "passed",
+              "duration": 3378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I can see dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I expand breadcrumb_menu & submenu \"Operations > Incidents\" \"Create Full Incident\"",
+            "result": {
+              "status": "passed",
+              "duration": 2998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I can see the page header \"Full Incident Details\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "if I have the test data for \"Full Incident\"",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I enter \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\" \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 10853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I select the type \"\" and input the value \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I take a pic of the page \"FULL INCIDENT CREATE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click \"Save\"",
+            "result": {
+              "status": "passed",
+              "duration": 9495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should find validate mssg \"Info! No SitRep Authorised\"",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I click \"Incident Details\"",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should find \"Reference_No.,Status,Universal_Id,Type,Class,Name,Lead_Agency\" is populated",
+            "result": {
+              "status": "passed",
+              "duration": 14338000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

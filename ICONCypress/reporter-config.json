@@ -1,0 +1,11 @@
+{
+    "reporterEnabled": "mochawesome,cypress-teamcity-reporter",
+    "mochawesomeReporterOptions": {
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "screenshots": true
+    }
+}
+
